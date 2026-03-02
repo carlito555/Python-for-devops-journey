@@ -1,0 +1,12 @@
+FizzBuzz with a DevOps Twist
+A classic, but reframed. Given a list of port numbers, print a status for each:
+
+If the port is divisible by 3, print "Maintenance"
+If the port is divisible by 5, print "Throttled"
+If divisible by both, print "Offline"
+Otherwise, print "Active: <port>"
+
+ports = [80, 443, 3306, 8080, 9090, 15, 22, 3000, 5000, 30]
+
+Try solving this before looking at anything. It should take 5–10 minutes. 
+The goal isn't just correctness — aim for clean, readable code a teammate could understand at a glance.
